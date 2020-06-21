@@ -16,6 +16,14 @@ const TodoInput = (props) => {
         props.setIsAdd(true);
         props.setIsEdit(false);
     }
+
+    const resetTodo = () => {
+        props.setIsAdd(true);
+        props.setTodo("");
+        props.setPriority("");
+        props.setId("");
+    }
+
     return (
         <div className="input-container">
             <div className="header">{props.isAdd ? "Add Todo" : "Update Todo" }</div>
@@ -24,7 +32,7 @@ const TodoInput = (props) => {
                 <label>ID</label>
                 <input type="text"
                     // placeholder="Please Enter Todo items"
-                    defaultValue={props.id}
+                    value={props.id}
                     readOnly
                 /> 
             </div>
@@ -48,6 +56,7 @@ const TodoInput = (props) => {
             <div className="btn-container">
                 {props.isAdd && <button className="btn" type="button" onClick={addTodo}>Add</button>}
                 {props.isEdit && <button className="btn" type="button" onClick={updateTodo}>Update</button>}
+                <button type="button" className="btn" onClick={resetTodo}>Reset</button>
             </div>
         </div>
     );

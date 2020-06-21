@@ -3,7 +3,7 @@ import '../css/todo.css';
 
 const TodoHeader = () => {
     return(
-        <h1 className="header1">Welcome to Todo App</h1>
+        <h1 className="header1">Todo App</h1>
     )
 }
 

@@ -37,6 +37,7 @@ function TodoApp(props) {
       <TodoHeader></TodoHeader>
       <TodoInput
         id={id}
+        setId={setId}
         todo={todo}
         setTodo={setTodo}
         priority={priority}
