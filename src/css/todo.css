@@ -1,0 +1,102 @@
+h1.header1{
+    margin: auto;
+    color : #405353;
+    width: 100%;
+    text-align: center;    
+}
+
+div.input-container{
+    border: 1px solid #e4aeae;
+    height: 225px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px red;
+    position: relative;
+    background: linear-gradient(#faf3f3, #acacac);
+}
+.input-container .header{
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.4em;
+    background: linear-gradient(#f86363, #ebe9e9);
+    color : #405353;
+    border-bottom: 3px solid #ffb6b6;
+}
+.input-container .input{
+    margin: 10px 0;
+    width: 100%
+}
+
+.input label{
+    display: inline-block;
+    margin-left : 15px;
+    width: 130px;
+    font-family: cursive;
+    font-variant: small-caps;
+    font-weight: bold;
+    
+}
+
+.input-container .btn-container{
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.input-container .btn-container .btn{
+    cursor: pointer;
+    padding: 5px 25px;
+    margin: 0 25px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid red;
+    border-top: 1px solid red;
+}
+
+.input-container .btn-container .btn:hover{
+    cursor: pointer;
+    padding: 5px 25px;
+    margin: 0 25px;
+    border: none;
+    background: linear-gradient(#f86363, #ebe9e9);
+    border-bottom: 2px solid red;
+    border-top: 1px solid red;
+    
+}
+
+table{
+    border: 2px solid red;
+    margin : 25px 25px;
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 5px 5px;
+    box-shadow: 10px 10px 10px  rgba(228, 56, 56, 0.473);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+th{
+    background: linear-gradient(#ff0000, #ffb6b6);
+    border-bottom: 2px solid red;
+    text-align: left;
+    padding: 10px 25px;
+}
+
+tr > td {
+    padding: 5px 25px;
+}
+tbody > tr {
+    background-color: #f8c4c4;
+    border-bottom: 1px solid red;
+}
+
+tr:nth-child(even){
+    background-color: #ccc8c8;
+}
+
