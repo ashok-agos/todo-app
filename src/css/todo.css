@@ -1,6 +1,6 @@
 h1.header1{
     margin: auto;
-    color : #405353;
+    color : #d7ff44;
     width: 100%;
     text-align: center;    
 }
@@ -86,7 +86,8 @@ div.input-container{
 
 table{
     border: 2px solid red;
-    margin : 25px 25px;
+    margin : auto;
+    margin-top: 30px;
     width: 50%;
     border-collapse: collapse;
     border-radius: 5px 5px;
